@@ -37,4 +37,5 @@ build/
 ### Mac OS ###
 .DS_Store
 
-/Users/alevtinasemeniuk/Documents/TestProject/task.md
+task.md
+.idea
