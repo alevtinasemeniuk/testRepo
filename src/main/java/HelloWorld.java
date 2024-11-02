@@ -8,7 +8,7 @@ public class HelloWorld {
 
         List<String> words = List.of("В", "траве", "сидел", "кузнечик");
 
-        System.out.println(words);
+        System.out.println(words + "!!!");
 
     }
 }
