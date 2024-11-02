@@ -22,13 +22,13 @@ public class PracticeTest {
     }
 
     @Test
-    public void testMainCheckbox() throws InterruptedException {
+    public void testMainCheckbox()  {
 
         driver.get("https://demoqa.com/checkbox");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement mainCheckbox = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='rct-checkbox']")));
         mainCheckbox.click();
-        Thread.sleep(1000);
+      
         mainCheckbox.click();
 
         List<WebElement> childChekboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
@@ -36,7 +36,7 @@ public class PracticeTest {
         for (WebElement checkbox : childChekboxes){
 
             Assert.assertTrue(checkbox.isSelected());
-            
+
         }
         driver.quit();
 
