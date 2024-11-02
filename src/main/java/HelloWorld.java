@@ -7,6 +7,7 @@ public class HelloWorld {
         System.out.println("Hello, world!");
 
         List<String> words = List.of("В", "траве", "сидел", "кузнечик");
+
         System.out.println(words);
 
     }
