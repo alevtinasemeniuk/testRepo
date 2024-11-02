@@ -28,7 +28,7 @@ public class PracticeTest {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement mainCheckbox = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='rct-checkbox']")));
         mainCheckbox.click();
-      
+
         mainCheckbox.click();
 
         List<WebElement> childChekboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
