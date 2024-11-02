@@ -16,9 +16,11 @@ public class PracticeTest {
      private WebDriver driver;
 
     @BeforeMethod
+
     public void setUp() throws InterruptedException {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
     }
 
     @Test
@@ -29,9 +31,8 @@ public class PracticeTest {
         WebElement mainCheckbox = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='rct-checkbox']")));
         mainCheckbox.click();
 
-        mainCheckbox.click();
-
         List<WebElement> childChekboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
+
 
         for (WebElement checkbox : childChekboxes){
 
