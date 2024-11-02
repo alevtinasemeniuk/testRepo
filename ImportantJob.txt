@@ -1,8 +1,9 @@
 Everyone in the team is important!
 
-Quality Assurance (QA) is the process of ensuring that products or systems meet specified quality standards. In software, 
-QA involves activities like planning, test design, and defect tracking to make sure the product is reliable, performs as expected, 
-and meets user requirements. QA includes both manual and automated testing, aiming to prevent defects, 
+Quality Assurance (QA) is the process of ensuring that products or systems meet specified quality standards.
+In software, QA involves activities like planning, test design, and defect tracking to make sure the product is reliable,
+performs as expected, and meets user requirements.
+QA includes both manual and automated testing, aiming to prevent defects,
 improve processes, and deliver consistent, high-quality results.
 
 
